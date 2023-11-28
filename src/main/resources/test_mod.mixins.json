@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.lulkas_.test_mod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "TestMod.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
