@@ -1,6 +1,7 @@
 package de.lulkas_.testmod;
 
 import com.mojang.logging.LogUtils;
+import de.lulkas_.testmod.item.ModCreativeModeTabs;
 import de.lulkas_.testmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -27,6 +28,7 @@ public class TestMod {
     public TestMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
