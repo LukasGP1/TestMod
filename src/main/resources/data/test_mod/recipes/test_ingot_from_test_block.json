@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "test_mod:test_block"
+    }
+  ],
+  "result": {
+    "item": "test_mod:test_ingot",
+    "count": 9
+  }
+}

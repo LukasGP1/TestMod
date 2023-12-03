@@ -18,6 +18,10 @@ public class ModItems {
             () -> new Item(new Item.Properties())
     );
 
+    public static final RegistryObject<Item> TEST_NUGGET = ITEMS.register("test_nugget",
+            () -> new Item(new Item.Properties())
+    );
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

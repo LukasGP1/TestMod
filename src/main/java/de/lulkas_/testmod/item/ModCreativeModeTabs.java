@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.TEST_INGOT.get());
                         pOutput.accept(ModItems.RAW_TEST_INGOT.get());
+                        pOutput.accept(ModItems.TEST_NUGGET.get());
 
                         pOutput.accept(ModBlocks.TEST_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_TEST_BLOCK.get());
