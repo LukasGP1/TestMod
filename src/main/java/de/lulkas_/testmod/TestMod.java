@@ -2,6 +2,8 @@ package de.lulkas_.testmod;
 
 import com.mojang.logging.LogUtils;
 import de.lulkas_.testmod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -40,7 +42,10 @@ public class TestMod {
 
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.TEST_INGOT);
+            event.accept(ModItems.RAW_TEST_INGOT);
+        }
     }
 
     @SubscribeEvent
