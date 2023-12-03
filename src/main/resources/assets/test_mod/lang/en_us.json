@@ -1,5 +1,12 @@
 {
   "item.test_mod.test_ingot": "Test Ingot",
   "item.test_mod.raw_test_ingot": "Raw Test Ingot",
-  "creative_tab.test_tab": "Test Tab"
+  "creative_tab.test_tab": "Test Tab",
+
+  "block.test_mod.test_block": "Test Block",
+  "block.test_mod.raw_test_block": "Raw Test Block",
+  "block.test_mod.test_ore": "Test Ore",
+  "block.test_mod.deepslate_test_ore": "Deepslate Test Ore",
+  "block.test_mod.nether_test_ore": "Nether Test Ore",
+  "block.test_mod.end_test_ore": "End Test Ore"
 }

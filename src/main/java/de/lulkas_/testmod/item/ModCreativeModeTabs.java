@@ -1,6 +1,7 @@
 package de.lulkas_.testmod.item;
 
 import de.lulkas_.testmod.TestMod;
+import de.lulkas_.testmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,13 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.TEST_INGOT.get());
                         pOutput.accept(ModItems.RAW_TEST_INGOT.get());
+
+                        pOutput.accept(ModBlocks.TEST_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_TEST_BLOCK.get());
+                        pOutput.accept(ModBlocks.TEST_ORE.get());
+                        pOutput.accept(ModBlocks.NETHER_TEST_ORE.get());
+                        pOutput.accept(ModBlocks.END_TEST_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_TEST_ORE.get());
                     })
                     .build()
     );
