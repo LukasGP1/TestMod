@@ -2,10 +2,13 @@ package de.lulkas_.testmod.block;
 
 import de.lulkas_.testmod.TestMod;
 import de.lulkas_.testmod.item.ModItems;
+import net.minecraft.util.valueproviders.IntProvider;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -28,22 +31,22 @@ public class ModBlocks {
     );
 
     public static final RegistryObject<Block> TEST_ORE = registerBlock("test_ore", BLOCKS.register("test_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE))),
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE), UniformInt.of(5, 10))),
             new Item.Properties()
     );
 
     public static final RegistryObject<Block> DEEPSLATE_TEST_ORE = registerBlock("deepslate_test_ore", BLOCKS.register("deepslate_test_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE))),
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE), UniformInt.of(5, 10))),
             new Item.Properties()
     );
 
     public static final RegistryObject<Block> NETHER_TEST_ORE = registerBlock("nether_test_ore", BLOCKS.register("nether_test_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHER_QUARTZ_ORE))),
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_QUARTZ_ORE), UniformInt.of(5, 10))),
             new Item.Properties()
     );
 
     public static final RegistryObject<Block> END_TEST_ORE = registerBlock("end_test_ore", BLOCKS.register("end_test_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.END_STONE))),
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE), UniformInt.of(5, 10))),
             new Item.Properties()
     );
 

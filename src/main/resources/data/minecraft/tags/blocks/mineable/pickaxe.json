@@ -1,0 +1,10 @@
+{
+  "values": [
+    "test_mod:test_block",
+    "test_mod:raw_test_block",
+    "test_mod:test_ore",
+    "test_mod:deepslate_test_ore",
+    "test_mod:nether_test_ore",
+    "test_mod:end_test_ore"
+  ]
+}
