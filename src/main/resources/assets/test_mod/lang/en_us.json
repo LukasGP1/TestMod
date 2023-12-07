@@ -2,6 +2,11 @@
   "item.test_mod.test_ingot": "Test Ingot",
   "item.test_mod.test_nugget": "Test Nugget",
   "item.test_mod.raw_test_ingot": "Raw Test Ingot",
+  "item.test_mod.diamond_detector": "Diamond Detector",
+  "item.test_mod.iron_detector": "Iron Detector",
+  "item.test_mod.gold_detector": "Gold Detector",
+  "item.test_mod.block_detector_item.tooltip": "Detects Blocks",
+
   "creative_tab.test_tab": "Test Tab",
 
   "block.test_mod.test_block": "Test Block",

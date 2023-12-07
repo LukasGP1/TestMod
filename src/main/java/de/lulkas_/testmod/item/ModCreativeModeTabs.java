@@ -21,6 +21,10 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.TEST_INGOT.get());
                         pOutput.accept(ModItems.RAW_TEST_INGOT.get());
                         pOutput.accept(ModItems.TEST_NUGGET.get());
+                        pOutput.accept(ModItems.DIAMOND_DETECTOR.get());
+                        pOutput.accept(ModItems.IRON_DETECTOR.get());
+                        pOutput.accept(ModItems.GOLD_DETECTOR.get());
+                        pOutput.accept(ModItems.SCULK_DETECTOR.get());
 
                         pOutput.accept(ModBlocks.TEST_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_TEST_BLOCK.get());
