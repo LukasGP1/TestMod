@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "t": {
+      "item": "test_mod:test_ingot"
+    }
+  },
+  "pattern": [
+    "ttt",
+    "ttt",
+    "ttt"
+  ],
+  "result": {
+    "item": "test_mod:test_block"
+  },
+  "show_notification": true
+}

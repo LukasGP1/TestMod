@@ -5,6 +5,8 @@
   "item.test_mod.diamond_detector": "Diamond Detector",
   "item.test_mod.iron_detector": "Iron Detector",
   "item.test_mod.gold_detector": "Gold Detector",
+  "item.test_mod.sculk_detector": "Sculk Detector",
+
   "item.test_mod.block_detector_item.tooltip": "Detects Blocks",
 
   "creative_tab.test_tab": "Test Tab",

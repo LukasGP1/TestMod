@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "test",
+  "ingredient": {
+    "item": "test_mod:end_test_ore"
+  },
+  "result": "test_mod:test_ingot"
+}
